@@ -8,8 +8,8 @@ public class TwilioService
 {
     private readonly HttpClient _httpClient = new HttpClient();
 
-    private const string AccountSid = "ACf777ce69be0803d1f4f73c9aae62fc0f";
-    private const string AuthToken = "d87762b6608b2a4043f88205defb79d5";
+    private const string AccountSid = "meu account sid";
+    private const string AuthToken = "MY_AUTH_TOKEN"; 
     private const string TwilioPhoneNumber = "whatsapp:+14155238886"; // Ex: whatsapp:+14155238886
     private const string WebhookUrlBase = "https://api.twilio.com/2010-04-01/Accounts/";
 
