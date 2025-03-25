@@ -1,0 +1,41 @@
+# 🛠️ Diretórios de build
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# 🔐 Arquivos sensíveis
+.env
+secrets.json
+*.db
+*.sqlite
+*.bak
+*.log
+
+# ⚙️ Configurações locais
+.vscode/
+.idea/
+*.user
+*.suo
+
+# 📦 NuGet
+*.nupkg
+packages/
+
+# 📝 Configurações do app
+appsettings.json
+appsettings.*.json
+
+# 🔄 Resultados de teste
+TestResults/
+coverage/
+
+# 🌐 Logs e ferramentas locais
+ngrok.log
+publish/
+
+# Arquivos reais de config (manter apenas os exemplos públicos)
+Config/appsettings.json
+database/chatbot.db
+
